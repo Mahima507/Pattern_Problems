@@ -1,0 +1,29 @@
+class square pattern{
+   
+   public static void main(String[] args){
+    int n = 5;
+    // print lines 
+    // outer loop
+    for(int i=1; i<=n;i++){
+     
+      //inner loop
+      for(int j =1;j<=n ;j++ ){
+         System.out.print(" * "); // same line
+      } 
+      System.out.println(); // new line print (\n)
+    }
+   }
+
+}
+
+
+/*
+
+Pattern problems>
+*  *  *  *  * 
+ *  *  *  *  *
+ *  *  *  *  *
+ *  *  *  *  *
+ *  *  *  *  *
+ 
+*/
